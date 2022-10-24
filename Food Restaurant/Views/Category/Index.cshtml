@@ -1,0 +1,53 @@
+﻿@model List< Categories>
+@{
+    ViewData["Title"] = "Categories";
+    Layout = "_AdminLayout";
+}
+@section stylecss{
+    <style>
+        #content
+        {
+           flex-grow: 1;
+           height: 30rem;
+           width:80%;
+           margin:0 auto;
+           overflow: auto; 
+           font-size:16px;
+        }
+      
+    </style>
+}
+<div style="margin-top:30px">
+    <div id="content" >
+
+        <a asp-action="CreateCategory" asp-controller="Category" class="btn btn-success" id="btn">Create</a>
+        <br />
+        <table class="table table-bordered mt-3">
+            <thead class=" text-center" style="background:#2b6777 ;color:white">
+                <tr style="margin:auto">
+                     <th>Code</th>
+                     <th>Name</th>
+                     <th>Date and Time</th>
+                     <th>Is Deleted</th>
+                     <th>Options</th>
+                 </tr>
+             </thead>
+             <tbody class="m-1">
+               @foreach(var itm in Model)
+                {
+                    <tr style="margin:auto">
+                        <td>@itm.Id</td>
+                        <td>@itm.Name</td>
+                        <td>@itm.Date</td>
+                        <td>@itm.IsDeleted</td>
+                        <td>
+                            <a asp-action="UpdateCategory" id="btn" asp-controller="Category" asp-route-id="@itm.Id"class="btn btn-secondary">Edit</a>
+                            <a asp-action="DeleteCategory" id="btn" asp-controller="Category"asp-route-id="@itm.Id"onclick="return confirm('are you sure to delete this item @itm.Name')" class="btn btn-danger">Delete</a>
+                        </td>
+                    </tr>
+        
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,50 @@
+﻿@model RegisterViewModel
+@{
+    ViewData["Title"] = "Register";
+    Layout = "_Layout";
+}
+@section stylecss{
+    <style>
+        span{
+            font-size:14px;
+        }
+    </style>
+}
+<section class="form-container">
+
+   <form asp-action="Registration" asp-controller="Account">
+      <h3>register now</h3>
+       <div asp-validation-summary="All" class="text-danger" style="font-size:14px;"></div>
+       <div class="input-group">
+           <label asp-for="Username" style="font-size:15px"></label>
+           <input type="text" asp-for="Username" maxlength="20" minlength="3" placeholder="enter your Username" class="box" autofocus>
+           <span asp-validation-for="Username" class="text-danger"></span>
+       </div>
+       <div class="input-group">
+           <label asp-for="Email" style="font-size:15px"></label>
+           <input type="email" asp-for="Email"  placeholder="enter your Email" class="box">
+           <span asp-validation-for="Email" class="text-danger"></span>
+       </div>      
+       <div class="input-group">
+           <label asp-for="Password" style="font-size:15px"></label>
+           <input type="password" asp-for="Password" maxlength="20" minlength="6" placeholder="enter your Password" class="box" >
+           <span asp-validation-for="Password" class="text-danger"></span>
+       </div>      
+       <div class="input-group">
+           <label asp-for="ConfirmPassword" style="font-size:15px"></label>
+           <input type="password" asp-for="ConfirmPassword" class="box">
+           <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+       </div>
+        <div class="input-group">
+           <label asp-for="Address" style="font-size:15px"></label>
+           <input type="text" asp-for="Address" minlength="4" class="box">
+           <span asp-validation-for="Address" class="text-danger"></span>
+       </div>
+       <input type="submit" value="regisetr now" class="btn" name="submit">
+      <p>already have an account? <a asp-action="Login" asp-controller="Account">login now</a></p>
+   </form>
+
+</section>
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}

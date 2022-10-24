@@ -1,0 +1,39 @@
+﻿@model LoginViewModel
+@{
+    ViewData["Title"] = "Login";
+    Layout = "_Layout";
+}
+@section stylecss{
+    <style>
+        span{
+            font-size:14px;
+        }
+    </style>
+}
+<section class="form-container">
+
+   <form asp-action="Login" asp-controller="Account">
+      <h3>Login now</h3>
+       <div asp-validation-summary="All" class="text-danger" style="font-size:14px;"></div>
+        <div class="input-group">
+           <label asp-for="Username" style="font-size:15px"></label>
+           <input type="text" asp-for="Username"  placeholder="enter your Username" class="box" autofocus>
+           <span asp-validation-for="Username" class="text-danger"></span>
+       </div>     
+       <div class="input-group">
+           <label asp-for="Password" style="font-size:15px"></label>
+           <input type="password" asp-for="Password" placeholder="enter your Password" class="box" >
+           <span asp-validation-for="Password" class="text-danger"></span>
+       </div>      
+       <div class="input-group">
+           <label asp-for="RememberMe" style="font-size:15px;margin-right:10px" ></label>
+           <input type="checkbox" asp-for="RememberMe" class="filled-in chk-col-pink">
+       </div>
+       <input type="submit" value="Login now" class="btn" name="submit">
+      <p>already have an account? <a asp-action="Forgetpassword" asp-controller="Account">Forget Password</a></p>
+   </form>
+
+</section>
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}

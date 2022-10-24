@@ -1,0 +1,28 @@
+﻿@model CategoryUpdateViewModel
+@{
+    ViewData["Title"] = "Update";
+    Layout = "_AdminLayout";
+}
+@section stylecss{
+    <style>
+        span{
+            font-size:14px;
+        }
+    </style>
+}
+<section class="form-container">
+
+   <form asp-action="UpdateCategory" asp-controller="Category">
+       <div asp-validation-summary="All" class="text-danger" style="font-size:14px;"></div>
+       <input type="hidden" asp-for="Id" />
+       <div class="input-group">
+           <label asp-for="Name" style="font-size:15px"></label>
+           <input type="text" asp-for="Name" maxlength="25" minlength="5" value="@Model.Name" placeholder="enter name" class="box" autofocus>
+       </div>       
+       <input type="submit" value="Update" class="btn btn-success" name="submit">
+   </form>
+
+</section>
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}

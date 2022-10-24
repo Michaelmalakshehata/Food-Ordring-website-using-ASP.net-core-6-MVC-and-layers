@@ -1,0 +1,51 @@
+﻿@model List<FinishedOrders>
+@{
+    ViewData["Title"] = "Orders";
+    Layout = "_Layout";
+}
+
+<div class="heading">
+   <h3>your orders</h3>
+   <p><a asp-action="Index" asp-controller="Home">home </a> <span> / orders</span></p>
+</div>
+
+<section class="orders">
+
+   <h1 class="title">placed orders</h1>
+   @if(ViewBag.list!=null)
+   {
+       <div class="title">
+           <div class="more-btn">
+           <a asp-action="ShowOrders" asp-controller="Order" class="delete-btn">Refresh Request</a>
+       </div>
+           <h3 style="font-size:20px">Your Order Is Requesting Please Waiting To Finished it </h3>
+       </div>
+       
+   }
+  @if(Model!=null)
+   {
+        
+            <div class="box-container">
+                @foreach (var item in Model)
+              {
+                <div class="box">
+                    <p> placed on : <span>@item.Date</span> </p>
+                    <p> name : <span>@item.Username</span> </p>
+                    <p> number : <span>@item.Phonenumber</span> </p>
+                    <p> email : <span>@item.Email</span> </p>
+                    <p> address : <span>@item.AddressDetailes</span> </p>
+                    <p> your orders : <span>@item.OrderDetails</span> </p>
+                    <p> total price : <span>@item.TotalPrice</span> </p>
+                    <p> payment method : <span>cash on delivery</span> </p>
+                    <p> payment status : <span>@item.state</span> </p>
+                </div>
+             }
+            </div>
+        
+    }
+  
+  @if(ViewBag.list==null && Model==null)
+   {
+    <h3 class="title" style="font-size:20px">You Don't Have Any Orders Yet </h3>
+   }
+</section>

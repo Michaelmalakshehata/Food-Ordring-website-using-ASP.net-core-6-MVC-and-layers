@@ -1,0 +1,51 @@
+﻿@model OrderViewModel
+@{
+ ViewData["Title"] = "Order";
+    Layout = "_Layout";
+}
+<div class="heading">
+   <h3>checkout</h3>
+   <p><a asp-action="Index"asp-controller="Home" >home </a> <span> / checkout</span></p>
+</div>
+
+<section class="checkout">
+
+   <h1 class="title">order summary</h1>
+
+   <form asp-action="AddOrder" asp-controller="Order">
+      <div class="cart-items">
+         <h3>cart items</h3>
+         @foreach(var item in Model.OrdersDetailes)
+         {
+         <p><span class="name">@item.ToString()</span></p>
+         }
+         <p class="grand-total"><span class="name">grand total :</span> <span class="price">$@ViewBag.totalprice</span></p>
+         <a asp-action="Index" asp-controller="Cart" class="btn">view cart</a>
+      </div>
+      <div asp-validation-summary="All" class="text-danger" style="font-size:14px;"></div>
+      <input type="hidden" asp-for="UserId" />
+      <input type="hidden" asp-for="Username"/>
+       <div class="form-group">
+           <label asp-for="Address" style="font-size:15px;margin-right:10px" class="form-label"></label>
+           <input type="text" asp-for="Address" maxlength="25" minlength="5" placeholder="enter name"  style="font-size:15px " class="form-control">
+       </div>
+       <div class="form-group">
+           <label asp-for="Email" style="font-size:15px;margin-right:10px" class="form-label"></label>
+           <input type="text" asp-for="Email" maxlength="25" minlength="5" placeholder="enter name" style="font-size:15px ;" class="form-control" >
+       </div>
+       <div class="form-group">
+           <label asp-for="PhoneNumber" style="font-size:15px;margin-right:10px" class="form-label"></label>
+           <input type="text" asp-for="PhoneNumber" maxlength="11"  placeholder="enter your phone" style="font-size:15px" class="form-control">
+       </div>
+      <div class="form-group">
+           <label  style="font-size:15px;margin-right:10px" class="form-label">Way to pay</label>
+           <input type="text" disabled value="cash on delivery" style="font-size:15px" class="form-control">
+       </div>
+    
+      <input type="submit" value="place order" class="btn order-btn">
+   </form>
+
+</section>
+ @section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,98 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>dashboard</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="~/css/admin_style.css">
+   <style>
+     .logo a{
+      font-size: 25px;
+      color:black;
+      margin-left:50px;
+      text-decoration:underline;
+   }
+.logo a:hover{
+    color:orange;
+       }
+   </style>
+</head>
+<body>
+
+
+<!-- admin dashboard section starts  -->
+
+<section class="dashboard">
+    <div class="logo">
+    <a asp-action="Index" asp-controller="Home" >yum-yum 😋</a>
+    </div>
+   <h1 class="heading">dashboard</h1>
+
+   <div class="box-container">
+
+   <div class="box">
+      <h3>welcome!</h3>
+      <p>@User.Identity.Name</p>
+      <a asp-action="Index" asp-controller="Profile" class="btn">View profile</a>
+   </div>
+
+   <div class="box">
+      <p>Total Categories</p>
+      <a asp-action="Index" asp-controller="Category" class="btn">See More</a>
+   </div>
+   <div class="box">
+    
+      <p>Total Menus</p>
+      <a asp-action="Index" asp-controller="Menu" class="btn">See More</a>
+   </div>
+ 
+
+   <div class="box">
+      <p>total Requesting orders</p>
+      <a asp-action="Index" asp-controller="RequestOrder" class="btn">See Mores</a>
+
+   </div>
+
+   
+
+   <div class="box">
+    
+      <p>Total Finished Orders</p>
+      <a asp-action="Index" asp-controller="FinishedOrder" class="btn">See More</a>
+   </div>
+
+   <div class="box">
+     
+      <p>total Deleted Categories</p>
+      <a asp-action="DeletedCategory" asp-controller="Category" class="btn">See More</a>
+   </div>
+
+   <div class="box">
+    
+      <p>Total Deleted Menus</p>
+      <a asp-action="Deletedmenu" asp-controller="Menu" class="btn">see More</a>
+   </div>
+
+ 
+
+   </div>
+
+</section>
+
+<!-- admin dashboard section ends -->
+
+
+
+<!-- custom js file link  -->
+<script src="~/js/admin_script.js"></script>
+ </body>
+</html>
