@@ -1,0 +1,40 @@
+﻿@model CartViewModel
+@{
+    ViewData["Title"] = "View Detailes";
+    Layout ="_Layout";
+}
+@section stylecss{
+   <link rel="stylesheet" href="~/css/styledetailes.css">
+
+}
+
+
+<section class="quick-view">
+
+   <h1 class="title">quick view</h1>
+   <form asp-action="AddToCart"asp-controller="Cart" class="box">
+       <input type="hidden" asp-for="Ordername" value="@Model.Ordername" />
+       <input type="hidden"asp-for="Price" value="@Model.Price"/>
+        <input type="hidden" asp-for="imgpath" value="@Model.imgpath"/>
+      <img src="~/uploaded_img/@Model.imgpath" alt="">
+      <div class="name">@Model.Ordername</div>
+      <div class="flex">
+         <div class="price"><span>$</span>@Model.Price</div>
+         <input type="number" asp-for="Quantity" class="qty" min="1" max="99" value="1" maxlength="2">
+      </div>
+      <button type="submit" name="add_to_cart" class="cart-btn">add to cart</button>
+   </form>
+</section>
+
+
+
+@section Scripts
+{
+ <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="~/js/scriptdetailes.js"></script>
+}
+
+
+

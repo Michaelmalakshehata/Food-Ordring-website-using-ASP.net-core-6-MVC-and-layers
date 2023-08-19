@@ -1,0 +1,84 @@
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border:none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    transition: all .3s linear;
+}
+
+body{
+    overflow: hidden;
+}
+
+.container{
+    min-height: 100vh;
+    background:url(../images/bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.container .text{
+    text-align: center;
+    font-size: 30vw;
+    color:#fff;
+    text-shadow: 1px 1px 0px #0002,
+                 1px 1px 0px #aaa,
+                 2px 2px 0px #aaa,
+                 3px 3px 0px #aaa,
+                 4px 4px 0px #aaa,
+                 5px 5px 0px #aaa,
+                 6px 6px 0px #aaa,
+                 7px 7px 0px #aaa,
+                 8px 8px 0px #aaa,
+                 9px 9px 0px #aaa,
+                 10px 10px 0px #aaa,
+                 11px 11px 0px #aaa,
+                 12px 12px 0px #aaa,
+                 13px 13px 0px #aaa,
+                 14px 14px 0px #aaa,
+                 15px 15px 0px #0009,
+                 20px 20px 10px #0009;
+}
+
+.container .content{
+    position: absolute;
+    top:70%; left:50%;
+    transform:translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+}
+
+.container .content p{
+    font-size: 30px;
+    color:#fff;
+    text-shadow: 0 5px 10px #000;
+    padding: 25px 0;
+}
+
+.container .content .btn{
+    display: inline-block;
+    height:50px;
+    width: 250px;
+    line-height: 50px;
+    background:#fff;
+    color:#444;
+    font-size: 20px;
+    box-shadow: 0 5px 10px #0009;
+}
+
+.container .content .btn.btn:hover{
+    transform:scale(.9);
+}
+
+.tree{
+    position: absolute;
+    top:0; left:0;
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}

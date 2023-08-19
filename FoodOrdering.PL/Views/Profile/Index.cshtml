@@ -1,0 +1,27 @@
+﻿@model ApplicationUser
+@{
+    ViewData["Title"] = "Profile";
+    Layout = "_Layout";
+}
+
+<div class="heading">
+   <h3>my profile</h3>
+   <p><a asp-action="Index" asp-controller="Home">home </a> <span> / profile</span></p>
+</div>
+
+<section class="user-details">
+
+   <div class="user">
+      <img src="/images/user-icon.png" alt="">
+      <p><i class="fas fa-user"></i> <span>@Model.UserName</span></p>
+      <p><i class="fas fa-envelope"></i> <span style="font-size:15px;">@Model.Email</span></p>
+      <p class="address"><i class="fas fa-map-marker-alt"></i> <span>@Model.Address</span></p>
+      <a href="update_profile.html" class="btn">update profile</a>
+   </div>
+
+</section>
+
+
+
+
+

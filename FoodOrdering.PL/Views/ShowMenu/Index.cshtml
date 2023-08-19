@@ -1,0 +1,40 @@
+﻿@model CartViewModel
+@{
+    ViewData["Title"] = "Menus";
+    Layout = "_Layout";
+}
+<div class="heading">
+   <h3>our menu</h3>
+   <p><a asp-action="Index" asp-controller="Home">home </a> <span> / menu</span></p>
+</div>
+
+<section class="products">
+
+   <h1 class="title">latest dishes</h1>
+
+   <div class="box-container">
+       @foreach(var item in ViewBag.list)
+       {
+    <form asp-action="AddToCart"asp-controller="Cart" class="box">
+            <input type="hidden" asp-for="Ordername" value="@item.Ordername" />
+            <input type="hidden" asp-for="Price" value="@item.Price"/>
+            <input type="hidden" asp-for="imgpath" value="@item.imgpath"/>
+         <a asp-action="ShowDetailes" asp-controller="ShowMenu" asp-route-Id="@item.MenuId" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="~/uploaded_img/@item.imgpath" alt="">
+         <a asp-action="ShowCategoryMenu" asp-controller="ShowMenu" asp-route-Id="@item.CategoryId" class="cat">@item.CategoryName</a>
+         <div class="name">@item.Ordername</div>
+         <div class="flex">
+            <div class="price"><span>$</span>@item.Price<span>/-</span></div>
+            <input type="number" asp-for="Quantity" class="qty" min="1" max="99">
+         </div>
+      </form>
+            
+        }
+
+   </div>
+
+</section>
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}

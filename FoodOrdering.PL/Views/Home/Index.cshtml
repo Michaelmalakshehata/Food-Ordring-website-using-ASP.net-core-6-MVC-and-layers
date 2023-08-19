@@ -1,0 +1,45 @@
+﻿@model List<Menus>
+@{
+    ViewData["Title"] = "Home";
+}
+<section class="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+        @foreach(var item in Model)
+            {
+               <div class="swiper-slide slide">
+                <div class="content">
+                   <span>order online</span>
+                   <h3>@item.Name</h3>
+                   <a asp-action="Index" asp-controller="ShowMenu" class="btn">see menus</a>
+                </div>
+                <div class="image">
+                   <img src="~/uploaded_img/@item.imgpath" alt="">
+                </div>
+              </div>
+            }
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+<section class="category">
+
+   <h1 class="title">food category</h1>
+
+   <div class="box-container">
+       @foreach(var items in ViewBag.list)
+        {
+              <a asp-action="ShowCategoryMenu" asp-controller="ShowMenu" asp-route-Id="@items.Id" class="box">
+               <h3>@items.Name</h3>
+              </a>
+        }
+   </div>
+
+</section>

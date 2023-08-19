@@ -1,0 +1,28 @@
+﻿@model CategoryViewModel
+@{
+    ViewData["Title"] = "Create";
+    Layout = "_AdminLayout";
+}
+@section stylecss{
+    <style>
+        span{
+            font-size:14px;
+        }
+    </style>
+}
+<section class="form-container">
+
+   <form asp-action="CreateCategory" asp-controller="Category">
+       <div asp-validation-summary="All" class="text-danger" style="font-size:14px;"></div>
+       <div class="input-group">
+           <label asp-for="Name" style="font-size:15px"></label>
+           <input type="text" asp-for="Name" maxlength="25" minlength="5" placeholder="enter name" class="box" autofocus>
+       </div>
+       
+       <input type="submit" value="Create" class="btn btn-success" name="submit">
+   </form>
+
+</section>
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}

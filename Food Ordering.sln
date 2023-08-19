@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{A2A47737-1587-4D25-BF6E-8D8317DAE718}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{62DA00AC-CE63-4DC3-BF1B-D236B3F4B48F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{E8407E28-ED9F-4323-B8D3-C8770E526C16}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodOrdering.Domain", "FoodOredering.Domain\FoodOrdering.Domain.csproj", "{1474C807-6272-46DB-8C5D-85C965A81E26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodOrdering.Application", "FoodOrdering.Application\FoodOrdering.Application.csproj", "{492528AC-2C3D-4A1D-8EA9-BAEB768A7E73}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodOrdering.Persistence", "FoodOrdering.Persistence\FoodOrdering.Persistence.csproj", "{49FC7458-9459-494C-A347-1E0B4E53B939}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodOrdering.PL", "FoodOrdering.PL\FoodOrdering.PL.csproj", "{F29175D2-5737-4766-8ABC-8012CD3B70F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1474C807-6272-46DB-8C5D-85C965A81E26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1474C807-6272-46DB-8C5D-85C965A81E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1474C807-6272-46DB-8C5D-85C965A81E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1474C807-6272-46DB-8C5D-85C965A81E26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{492528AC-2C3D-4A1D-8EA9-BAEB768A7E73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{492528AC-2C3D-4A1D-8EA9-BAEB768A7E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{492528AC-2C3D-4A1D-8EA9-BAEB768A7E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{492528AC-2C3D-4A1D-8EA9-BAEB768A7E73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49FC7458-9459-494C-A347-1E0B4E53B939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49FC7458-9459-494C-A347-1E0B4E53B939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49FC7458-9459-494C-A347-1E0B4E53B939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49FC7458-9459-494C-A347-1E0B4E53B939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F29175D2-5737-4766-8ABC-8012CD3B70F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F29175D2-5737-4766-8ABC-8012CD3B70F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F29175D2-5737-4766-8ABC-8012CD3B70F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F29175D2-5737-4766-8ABC-8012CD3B70F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1474C807-6272-46DB-8C5D-85C965A81E26} = {A2A47737-1587-4D25-BF6E-8D8317DAE718}
+		{492528AC-2C3D-4A1D-8EA9-BAEB768A7E73} = {A2A47737-1587-4D25-BF6E-8D8317DAE718}
+		{49FC7458-9459-494C-A347-1E0B4E53B939} = {62DA00AC-CE63-4DC3-BF1B-D236B3F4B48F}
+		{F29175D2-5737-4766-8ABC-8012CD3B70F1} = {E8407E28-ED9F-4323-B8D3-C8770E526C16}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BA2CD20-3347-4E33-83AA-C379208A633E}
+	EndGlobalSection
+EndGlobal

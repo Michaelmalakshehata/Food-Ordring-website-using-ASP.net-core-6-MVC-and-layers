@@ -1,0 +1,62 @@
+﻿@model CartUpdateViewModel
+@{
+ ViewData["Title"] = "Cart";
+    Layout = "_Layout";
+}
+}
+<div class="heading">
+   <h3>shopping cart</h3>
+   <p><a asp-action="Index" asp-controller="Home" >home </a> <span> / cart</span></p>
+</div>
+
+<section class="products">
+
+   <h1 class="title">your cart</h1>
+
+    @if (ViewBag.list != null)
+    {
+        <div class="cart-total">
+
+            <p>grand total : <span>$ @ViewBag.price</span></p>
+            <a asp-action="AddOrder" asp-controller="Order" class="btn">checkout orders</a>
+        </div>
+
+        <div class="box-container">
+            @foreach (var item in ViewBag.list)
+            {
+                <div class="box">
+                    <a class="fas fa-times" asp-action="DeleteCartItem"  asp-controller="Cart" asp-route-Id="@item.Id" style="text-decoration:none;padding:auto 4px ;color:red;font-size:20px" onclick="return confirm('you sure to delete this item @item.Ordername ?')"></a>
+                    <img src="~/uploaded_img/@item.imgpath" alt="">
+                    <div class="name">@item.Ordername</div>
+                    <div class="flex">
+                        <div class="price"><span>$</span>@item.Price</div>
+                        <Form asp-action="UpdateCart" asp-controller="Cart" >
+                            <input type="hidden"asp-for="Id" value="@item.Id"/>
+                            <input type="hidden"asp-for="Ordername" value="@item.Ordername"/>
+                            <input type="hidden"asp-for="imgpath" value="@item.imgpath"/>
+                            <input type="hidden"asp-for="Price" value="@item.Price"/>
+                            <input type="hidden"asp-for="UserId" value="@item.UserId"/>
+                            <input type="number"asp-for="Quantity" value="@item.Quantity" class="qty" min="1" max="99">
+                            <button type="submit" class="fas fa-edit"></button>
+                        </Form>
+                    </div>
+                    <div class="sub-total">sub total : <span>$@item.SubTotalPrice</span></div>
+                </div>
+            }
+
+        </div>
+
+        <div class="more-btn">
+            <a asp-action="DeleteAllCartItems" asp-controller="Cart" class="delete-btn" onclick="return confirm('delete all from cart?');">delete all</a>
+        </div>
+        }
+   else
+    {
+        <div class="more-btn">
+          <a asp-action="Index" asp-controller="ShowMenu" class="delete-btn">Add Frist Item To Cart</a>
+       </div>
+    }
+ </section>
+ @section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}

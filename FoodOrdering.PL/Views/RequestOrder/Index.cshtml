@@ -1,0 +1,62 @@
+﻿@model List<Orders>
+@{
+    ViewData["Title"] = "Request Orders";
+    Layout = "_AdminLayout";
+}
+@section stylecss{
+    <style>
+        #content
+        {
+           flex-grow: 1;
+           height: 50rem;
+           width:98%;
+           margin:0 auto;
+           overflow: auto; 
+           font-size:16px;
+        }
+      
+    </style>
+}
+<div style="margin-top:30px">
+    <a asp-action="Index" asp-controller="RequestOrder" class="btn btn-primary m-3">Refresh</a>
+    <br />
+    <div id="content" >
+        <table class="table table-bordered mt-3 table-striped table-hover">
+            <thead class=" text-center" style="background:#2b6777 ;color:white">
+                <tr style="margin:auto">
+                     <th>Code</th>
+                     <th>Order Detailes</th>
+                     <th>Total Price</th>
+                     <th>Name</th>
+                     <th>Address</th>
+                     <th>Phone Number</th>
+                     <th>Email</th>
+                     <th>Date and Time</th>  
+                     <th>State</th> 
+                     <th>Options</th>
+                 </tr>
+             </thead>
+             <tbody class="m-1">
+               @foreach(var itm in Model)
+                {
+                    <tr style="margin:auto">
+                        <td>@itm.Id</td>
+                        <td>@itm.OrderDetails</td>
+                        <td>@itm.TotalPrice</td>
+                        <td>@itm.Username</td>
+                        <td>@itm.AddressDetailes</td>
+                        <td>@itm.Phonenumber</td>
+                        <td>@itm.Email</td>
+                         <td>@itm.Date</td>
+                          <td>Pending</td>
+                        <td>
+                            <a asp-action="AddFinishedOrder"  asp-controller="FinishedOrder" asp-route-id="@itm.Id"class="btn btn-secondary m-2">Accept Order</a>
+                            <a asp-action="DeleteOrder"  asp-controller="RequestOrder"asp-route-id="@itm.Id"onclick="return confirm('are you sure to delete this item @itm.Username')" class="btn btn-danger m-2">Delete</a>
+                        </td>
+                    </tr>
+        
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

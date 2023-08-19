@@ -1,0 +1,48 @@
+﻿@{
+        Layout = null;
+
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="~/css/styles.css">
+
+</head>
+<body>
+
+
+<div class="container">
+
+    <h1 class="text">404</h1>
+
+    <div class="content">
+        <p>The page you are looking for doesn't exist.</p>
+        <a asp-action="Index" asp-controller="Home" class="btn">go back to home</a>
+    </div>
+
+    <img src="images/tree.png" class="tree" alt="">
+
+</div>
+
+<script>
+
+    let container = document.querySelector('.container')
+    let text = document.querySelector('.text');
+
+    container.addEventListener('mousemove', (e) =>{
+
+        var x = (window.innerWidth / 2 - e.pageX) / 10;
+        var y = (window.innerHeight / 2 - e.pageY) / 10;
+
+        text.style.transform = `translateX(${x}px) translateY(${y}px)`;
+
+    })
+
+</script>
+    
+</body>
+</html>
