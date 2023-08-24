@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Food Ordering\\FoodOrdering.Application\\FoodOrdering.Application.csproj": {}
+    "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.Application\\FoodOrdering.Application.csproj": {}
   },
   "projects": {
-    "F:\\Food Ordering\\FoodOrdering.Application\\FoodOrdering.Application.csproj": {
+    "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.Application\\FoodOrdering.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Food Ordering\\FoodOrdering.Application\\FoodOrdering.Application.csproj",
+        "projectUniqueName": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.Application\\FoodOrdering.Application.csproj",
         "projectName": "FoodOrdering.Application",
-        "projectPath": "F:\\Food Ordering\\FoodOrdering.Application\\FoodOrdering.Application.csproj",
+        "projectPath": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.Application\\FoodOrdering.Application.csproj",
         "packagesPath": "C:\\Users\\NoteBook\\.nuget\\packages\\",
-        "outputPath": "F:\\Food Ordering\\FoodOrdering.Application\\obj\\",
+        "outputPath": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
@@ -34,8 +34,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\Food Ordering\\FoodOredering.Domain\\FoodOrdering.Domain.csproj": {
-                "projectPath": "F:\\Food Ordering\\FoodOredering.Domain\\FoodOrdering.Domain.csproj"
+              "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOredering.Domain\\FoodOrdering.Domain.csproj": {
+                "projectPath": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOredering.Domain\\FoodOrdering.Domain.csproj"
               }
             }
           }
@@ -106,14 +106,14 @@
         }
       }
     },
-    "F:\\Food Ordering\\FoodOredering.Domain\\FoodOrdering.Domain.csproj": {
+    "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOredering.Domain\\FoodOrdering.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Food Ordering\\FoodOredering.Domain\\FoodOrdering.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOredering.Domain\\FoodOrdering.Domain.csproj",
         "projectName": "FoodOrdering.Domain",
-        "projectPath": "F:\\Food Ordering\\FoodOredering.Domain\\FoodOrdering.Domain.csproj",
+        "projectPath": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOredering.Domain\\FoodOrdering.Domain.csproj",
         "packagesPath": "C:\\Users\\NoteBook\\.nuget\\packages\\",
-        "outputPath": "F:\\Food Ordering\\FoodOredering.Domain\\obj\\",
+        "outputPath": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOredering.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",

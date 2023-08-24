@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FoodOrdering.Persistence.Migrations
 {
     [DbContext(typeof(EntityContext))]
-    [Migration("20230819120845_AddAdminUser")]
+    [Migration("20230819174728_AddAdminUser")]
     partial class AddAdminUser
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FoodOrdering.Persistence.Migrations
 {
     [DbContext(typeof(EntityContext))]
-    [Migration("20230819120956_AssignAdminToAllRoles")]
-    partial class AssignAdminToAllRoles
+    [Migration("20230819174539_SeedRoles")]
+    partial class SeedRoles
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

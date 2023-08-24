@@ -2804,11 +2804,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Food Ordering\\FoodOrdering.PL\\FoodOrdering.PL.csproj",
+      "projectUniqueName": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\FoodOrdering.PL.csproj",
       "projectName": "FoodOrdering.PL",
-      "projectPath": "F:\\Food Ordering\\FoodOrdering.PL\\FoodOrdering.PL.csproj",
+      "projectPath": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\FoodOrdering.PL.csproj",
       "packagesPath": "C:\\Users\\NoteBook\\.nuget\\packages\\",
-      "outputPath": "F:\\Food Ordering\\FoodOrdering.PL\\obj\\",
+      "outputPath": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
@@ -2831,11 +2831,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "F:\\Food Ordering\\FoodOrdering.Application\\FoodOrdering.Application.csproj": {
-              "projectPath": "F:\\Food Ordering\\FoodOrdering.Application\\FoodOrdering.Application.csproj"
+            "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.Application\\FoodOrdering.Application.csproj": {
+              "projectPath": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.Application\\FoodOrdering.Application.csproj"
             },
-            "F:\\Food Ordering\\FoodOrdering.Persistence\\FoodOrdering.Persistence.csproj": {
-              "projectPath": "F:\\Food Ordering\\FoodOrdering.Persistence\\FoodOrdering.Persistence.csproj"
+            "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.Persistence\\FoodOrdering.Persistence.csproj": {
+              "projectPath": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.Persistence\\FoodOrdering.Persistence.csproj"
             }
           }
         }

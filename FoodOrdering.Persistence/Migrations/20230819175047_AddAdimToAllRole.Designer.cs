@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FoodOrdering.Persistence.Migrations
 {
     [DbContext(typeof(EntityContext))]
-    [Migration("20230819120712_SeedRoles")]
-    partial class SeedRoles
+    [Migration("20230819175047_AddAdimToAllRole")]
+    partial class AddAdimToAllRole
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

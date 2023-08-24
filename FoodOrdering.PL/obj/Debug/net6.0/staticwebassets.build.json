@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vln8NcEY6WHJeaboSIh7FxsOQ8Qs3yl0abFv9yg0NoU=",
+  "Hash": "jDQftlVSSJNLTDcqdG/DlCPswYkBHCw/mrZg4vGrhGA=",
   "Source": "FoodOrdering.PL",
   "BasePath": "_content/FoodOrdering.PL",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "FoodOrdering.PL\\wwwroot",
       "Source": "FoodOrdering.PL",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\obj\\Debug\\net6.0\\scopedcss\\bundle\\FoodOrdering.PL.styles.css",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\obj\\Debug\\net6.0\\scopedcss\\bundle\\FoodOrdering.PL.styles.css",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "FoodOrdering.PL.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "F:\\Food Ordering\\FoodOrdering.PL\\obj\\Debug\\net6.0\\scopedcss\\bundle\\FoodOrdering.PL.styles.css"
+      "OriginalItemSpec": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\obj\\Debug\\net6.0\\scopedcss\\bundle\\FoodOrdering.PL.styles.css"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FoodOrdering.PL.bundle.scp.css",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FoodOrdering.PL.bundle.scp.css",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "FoodOrdering.PL.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "F:\\Food Ordering\\FoodOrdering.PL\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FoodOrdering.PL.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FoodOrdering.PL.bundle.scp.css"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\css\\admin_style.css",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\css\\admin_style.css",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "css/admin_style.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\admin_style.css"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\css\\edit-style.css",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\css\\edit-style.css",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "css/edit-style.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\edit-style.css"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\css\\style.css",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\css\\style.css",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\css\\styledetailes.css",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\css\\styledetailes.css",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "css/styledetailes.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\styledetailes.css"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\css\\styles.css",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\css\\styles.css",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "css/styles.css",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\favicon.ico",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\images\\about-img.svg",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\images\\about-img.svg",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "images/about-img.svg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\images\\about-img.svg"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\images\\bg.jpg",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\images\\bg.jpg",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "images/bg.jpg",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\images\\bg.jpg"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\images\\cat-1.png",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\images\\cat-1.png",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "images/cat-1.png",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\images\\cat-1.png"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\images\\cat-2.png",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\images\\cat-2.png",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "images/cat-2.png",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\images\\cat-2.png"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\images\\cat-3.png",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\images\\cat-3.png",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "images/cat-3.png",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\images\\cat-3.png"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\images\\cat-4.png",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\images\\cat-4.png",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "images/cat-4.png",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\images\\cat-4.png"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\images\\clock-icon.png",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\images\\clock-icon.png",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "images/clock-icon.png",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\images\\clock-icon.png"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\images\\contact-img.svg",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\images\\contact-img.svg",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "images/contact-img.svg",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\images\\contact-img.svg"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\images\\email-icon.png",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\images\\email-icon.png",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "images/email-icon.png",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\images\\email-icon.png"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\images\\loader.gif",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\images\\loader.gif",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "images/loader.gif",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\images\\loader.gif"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\images\\map-icon.png",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\images\\map-icon.png",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "images/map-icon.png",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\images\\map-icon.png"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\images\\phone-icon.png",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\images\\phone-icon.png",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "images/phone-icon.png",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\images\\phone-icon.png"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\images\\step-1.png",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\images\\step-1.png",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "images/step-1.png",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\images\\step-1.png"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\images\\step-2.png",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\images\\step-2.png",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "images/step-2.png",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\images\\step-2.png"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\images\\step-3.png",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\images\\step-3.png",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "images/step-3.png",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\images\\step-3.png"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\images\\tree.png",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\images\\tree.png",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "images/tree.png",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\images\\tree.png"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\images\\user-icon.png",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\images\\user-icon.png",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "images/user-icon.png",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\images\\user-icon.png"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\js\\admin_script.js",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\js\\admin_script.js",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "js/admin_script.js",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\js\\admin_script.js"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\js\\script.js",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\js\\script.js",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "js/script.js",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\js\\script.js"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\js\\scriptdetailes.js",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\js\\scriptdetailes.js",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "js/scriptdetailes.js",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\js\\scriptdetailes.js"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\jquery-easing\\jquery.easing.compatibility.js",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\jquery-easing\\jquery.easing.compatibility.js",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/jquery-easing/jquery.easing.compatibility.js",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-easing\\jquery.easing.compatibility.js"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\jquery-easing\\jquery.easing.compatibility.min.js",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\jquery-easing\\jquery.easing.compatibility.min.js",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/jquery-easing/jquery.easing.compatibility.min.js",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-easing\\jquery.easing.compatibility.min.js"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\jquery-easing\\jquery.easing.compatibility.min.js.map",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\jquery-easing\\jquery.easing.compatibility.min.js.map",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/jquery-easing/jquery.easing.compatibility.min.js.map",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-easing\\jquery.easing.compatibility.min.js.map"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\jquery-easing\\jquery.easing.js",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\jquery-easing\\jquery.easing.js",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/jquery-easing/jquery.easing.js",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-easing\\jquery.easing.js"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\jquery-easing\\jquery.easing.min.js",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\jquery-easing\\jquery.easing.min.js",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/jquery-easing/jquery.easing.min.js",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-easing\\jquery.easing.min.js"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "FoodOrdering.PL",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
       "BasePath": "_content/FoodOrdering.PL",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1545,6 +1545,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\uploaded_img\\pizza-1.png",
+      "SourceId": "FoodOrdering.PL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\wwwroot\\",
+      "BasePath": "_content/FoodOrdering.PL",
+      "RelativePath": "uploaded_img/pizza-1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploaded_img\\pizza-1.png"
     }
   ]
 }

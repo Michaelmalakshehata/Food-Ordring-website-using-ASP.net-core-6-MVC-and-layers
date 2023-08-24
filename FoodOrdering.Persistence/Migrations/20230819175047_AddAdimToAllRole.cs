@@ -4,7 +4,7 @@
 
 namespace FoodOrdering.Persistence.Migrations
 {
-    public partial class AssignAdminToAllRoles : Migration
+    public partial class AddAdimToAllRole : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

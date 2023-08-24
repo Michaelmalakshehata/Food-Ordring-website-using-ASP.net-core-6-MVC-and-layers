@@ -10,10 +10,10 @@ namespace FoodOrdering.Persistence.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.InsertData(
-               table: "AspNetRoles",
-               columns: new[] { "Id", "Name", "NormalizedName", "ConcurrencyStamp" },
-               values: new object[] { Guid.NewGuid().ToString(), Roles.userrole, Roles.userrole.ToUpper(), Guid.NewGuid().ToString() }
-           );
+              table: "AspNetRoles",
+              columns: new[] { "Id", "Name", "NormalizedName", "ConcurrencyStamp" },
+              values: new object[] { Guid.NewGuid().ToString(), Roles.userrole, Roles.userrole.ToUpper(), Guid.NewGuid().ToString() }
+          );
             migrationBuilder.InsertData(
                table: "AspNetRoles",
                columns: new[] { "Id", "Name", "NormalizedName", "ConcurrencyStamp" },

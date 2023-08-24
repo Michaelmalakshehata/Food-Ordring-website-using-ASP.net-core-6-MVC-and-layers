@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FoodOrdering.Persistence.Migrations
 {
     [DbContext(typeof(EntityContext))]
-    [Migration("20230819120108_Init")]
+    [Migration("20230819173622_Init")]
     partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
