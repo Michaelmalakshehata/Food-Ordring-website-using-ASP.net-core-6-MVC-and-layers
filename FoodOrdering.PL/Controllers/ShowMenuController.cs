@@ -1,5 +1,8 @@
-﻿using FoodOrdering.Application.Features.OrderFeatures.OrderSearch;
+﻿using FoodOrdering.Application.Common.Pagination;
+using FoodOrdering.Application.Features.CartFeatures.CartCreate;
+using FoodOrdering.Application.Features.OrderFeatures.OrderSearch;
 using FoodOrdering.Application.Repositories;
+using FoodOredering.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FoodOrdering.PL.Controllers
@@ -16,13 +19,15 @@ namespace FoodOrdering.PL.Controllers
         }
 
         #region show all menu with category name
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int pg=1)
         {
 
             var listmenus = await serviceshowmenu.GetlastMenus();
-            if (listmenus != null)
+            var data = Pagination<CartViewModel>.GetPaginationData(pg, listmenus);
+            this.ViewBag.Pager = data.Item2;
+            if (data.Item1 is not null)
             {
-                ViewBag.list = listmenus;
+                ViewBag.list = data.Item1;
             }
             return View();
         }
@@ -43,12 +48,14 @@ namespace FoodOrdering.PL.Controllers
         #region show all menu in his category 
 
         [HttpGet]
-        public async Task<IActionResult> ShowCategoryMenu(int Id)
+        public async Task<IActionResult> ShowCategoryMenu(int Id,int pg=1)
         {
             var menulist = await serviceshowmenu.GetMenuByCategory(Id);
-            if (menulist != null)
+            var data = Pagination<CartViewModel>.GetPaginationData(pg, menulist);
+            this.ViewBag.pager = data.Item2;
+            if (data.Item1 is not null)
             {
-                ViewBag.list = menulist;
+                ViewBag.list = data.Item1;
             }
             return View();
         }
@@ -65,9 +72,12 @@ namespace FoodOrdering.PL.Controllers
 
         #region Search Result
         [HttpGet]
-        public async Task<IActionResult> SearchResult(SearchViewModel searchViewModel)
+        public async Task<IActionResult> SearchResult(SearchViewModel searchViewModel,int pg=1)
         {
-            ViewBag.listmenu = await serviceshowmenu.SearchMenu(searchViewModel);
+            var listmenu = await serviceshowmenu.SearchMenu(searchViewModel);
+            var data = Pagination<CartViewModel>.GetPaginationData(pg, listmenu);
+            this.ViewBag.page = data.Item2;
+            ViewBag.listmenu = data.Item1;
             return View();
         }
         #endregion

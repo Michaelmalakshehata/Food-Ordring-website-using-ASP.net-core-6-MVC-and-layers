@@ -1,5 +1,7 @@
 ﻿using FoodOrdering.Application.Common;
+using FoodOrdering.Application.Common.Pagination;
 using FoodOrdering.Application.Repositories;
+using FoodOredering.Domain.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -14,10 +16,12 @@ namespace FoodOrdering.PL.Controllers
             this.serviceFinishedOrder = serviceFinishedOrder;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int pg=1)
         {
             var listorders = await serviceFinishedOrder.GetAllFinishedOrder();
-            return View(listorders);
+            var data = Pagination<FinishedOrders>.GetPaginationData(pg, listorders);
+            this.ViewBag.Pager = data.Item2;
+            return View(data.Item1);
         }
         [HttpGet]
         public async Task<IActionResult> AddFinishedOrder(int Id)

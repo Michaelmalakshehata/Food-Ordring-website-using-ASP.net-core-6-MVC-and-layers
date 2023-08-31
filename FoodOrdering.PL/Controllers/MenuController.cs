@@ -1,7 +1,9 @@
 ﻿using FoodOrdering.Application.Common;
+using FoodOrdering.Application.Common.Pagination;
 using FoodOrdering.Application.Features.MenuFeatures.MenuCreate;
 using FoodOrdering.Application.Features.MenuFeatures.MenuUpdate;
 using FoodOrdering.Application.Repositories;
+using FoodOredering.Domain.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -18,13 +20,15 @@ namespace FoodOrdering.PL.Controllers
             this.servicecategory = servicecategory;
         }
         #region all Menus
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int pg=1)
         {
 
             var menulist = await servicemenu.GetallMenus();
-            if (menulist != null)
+            var data = Pagination<Menus>.GetPaginationData(pg, menulist);
+            this.ViewBag.Pager = data.Item2;
+            if (data.Item1 is not null)
             {
-                return View(menulist);
+                return View(data.Item1);
             }
             return View();
         }
@@ -34,10 +38,12 @@ namespace FoodOrdering.PL.Controllers
 
         #region all deleted menus
         [HttpGet]
-        public async Task<IActionResult> Deletedmenu()
+        public async Task<IActionResult> Deletedmenu(int pg=1)
         {
             var menulistdeleted = await servicemenu.GetalldeletedMenus();
-            return View(menulistdeleted);
+            var data = Pagination<Menus>.GetPaginationData(pg, menulistdeleted);
+            this.ViewBag.Pager = data.Item2;
+            return View(data.Item1);
         }
 
         #endregion

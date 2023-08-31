@@ -1,4 +1,5 @@
-﻿using FoodOrdering.Application.Features.CartFeatures.CartCreate;
+﻿using FoodOrdering.Application.Common.Pagination;
+using FoodOrdering.Application.Features.CartFeatures.CartCreate;
 using FoodOrdering.Application.Features.CartFeatures.CartUpdate;
 using FoodOrdering.Application.Repositories;
 using Microsoft.AspNetCore.Authorization;
@@ -13,15 +14,17 @@ namespace FoodOrdering.PL.Controllers
         {
             this.serviceCart = serviceCart;
         }
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int pg=1)
         {
             string name = User.Identity.Name;
             var carts = await serviceCart.GetAllUserCart(name);
+            var data = Pagination<CartUpdateViewModel>.GetPaginationData(pg,carts);
+            this.ViewBag.Pager = data.Item2;
             double totalprice = await serviceCart.totalprice(name);
-            if (carts != null && totalprice != 0)
+            if (carts is not null && totalprice != 0 && data.Item1 is not null)
             {
                 ViewBag.price = totalprice;
-                ViewBag.list = carts;
+                ViewBag.list = data.Item1;
                 return View();
             }
             return View();

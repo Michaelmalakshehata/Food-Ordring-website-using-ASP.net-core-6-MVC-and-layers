@@ -8,137 +8,137 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FoodOrdering.PL
 build_property.RootNamespace = FoodOrdering.PL
-build_property.ProjectDir = C:\Users\NoteBook\OneDrive\Desktop\Food Ordering\FoodOrdering.PL\
+build_property.ProjectDir = F:\Important\github\Food Ordering\FoodOrdering.PL\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\NoteBook\OneDrive\Desktop\Food Ordering\FoodOrdering.PL
+build_property.MSBuildProjectDirectory = F:\Important\github\Food Ordering\FoodOrdering.PL
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/NoteBook/OneDrive/Desktop/Food Ordering/FoodOrdering.PL/Views/Account/Login.cshtml]
+[F:/Important/github/Food Ordering/FoodOrdering.PL/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/NoteBook/OneDrive/Desktop/Food Ordering/FoodOrdering.PL/Views/Account/Registration.cshtml]
+[F:/Important/github/Food Ordering/FoodOrdering.PL/Views/Account/Registration.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3RyYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/NoteBook/OneDrive/Desktop/Food Ordering/FoodOrdering.PL/Views/Admin/Index.cshtml]
+[F:/Important/github/Food Ordering/FoodOrdering.PL/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/NoteBook/OneDrive/Desktop/Food Ordering/FoodOrdering.PL/Views/Cart/Index.cshtml]
+[F:/Important/github/Food Ordering/FoodOrdering.PL/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/NoteBook/OneDrive/Desktop/Food Ordering/FoodOrdering.PL/Views/Category/CreateCategory.cshtml]
+[F:/Important/github/Food Ordering/FoodOrdering.PL/Views/Category/CreateCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/NoteBook/OneDrive/Desktop/Food Ordering/FoodOrdering.PL/Views/Category/DeletedCategory.cshtml]
+[F:/Important/github/Food Ordering/FoodOrdering.PL/Views/Category/DeletedCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlZENhdGVnb3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/NoteBook/OneDrive/Desktop/Food Ordering/FoodOrdering.PL/Views/Category/Index.cshtml]
+[F:/Important/github/Food Ordering/FoodOrdering.PL/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/NoteBook/OneDrive/Desktop/Food Ordering/FoodOrdering.PL/Views/Category/UpdateCategory.cshtml]
+[F:/Important/github/Food Ordering/FoodOrdering.PL/Views/Category/UpdateCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcVXBkYXRlQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/NoteBook/OneDrive/Desktop/Food Ordering/FoodOrdering.PL/Views/FinishedOrder/Index.cshtml]
+[F:/Important/github/Food Ordering/FoodOrdering.PL/Views/FinishedOrder/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmluaXNoZWRPcmRlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/NoteBook/OneDrive/Desktop/Food Ordering/FoodOrdering.PL/Views/Home/About.cshtml]
+[F:/Important/github/Food Ordering/FoodOrdering.PL/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/NoteBook/OneDrive/Desktop/Food Ordering/FoodOrdering.PL/Views/Home/Contact.cshtml]
+[F:/Important/github/Food Ordering/FoodOrdering.PL/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/NoteBook/OneDrive/Desktop/Food Ordering/FoodOrdering.PL/Views/Home/Error.cshtml]
+[F:/Important/github/Food Ordering/FoodOrdering.PL/Views/Home/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/NoteBook/OneDrive/Desktop/Food Ordering/FoodOrdering.PL/Views/Home/Index.cshtml]
+[F:/Important/github/Food Ordering/FoodOrdering.PL/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/NoteBook/OneDrive/Desktop/Food Ordering/FoodOrdering.PL/Views/Menu/CreateMenus.cshtml]
+[F:/Important/github/Food Ordering/FoodOrdering.PL/Views/Menu/CreateMenus.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxDcmVhdGVNZW51cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/NoteBook/OneDrive/Desktop/Food Ordering/FoodOrdering.PL/Views/Menu/Deletedmenu.cshtml]
+[F:/Important/github/Food Ordering/FoodOrdering.PL/Views/Menu/Deletedmenu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxEZWxldGVkbWVudS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/NoteBook/OneDrive/Desktop/Food Ordering/FoodOrdering.PL/Views/Menu/Index.cshtml]
+[F:/Important/github/Food Ordering/FoodOrdering.PL/Views/Menu/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/NoteBook/OneDrive/Desktop/Food Ordering/FoodOrdering.PL/Views/Menu/UpdateMenu.cshtml]
+[F:/Important/github/Food Ordering/FoodOrdering.PL/Views/Menu/UpdateMenu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxVcGRhdGVNZW51LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/NoteBook/OneDrive/Desktop/Food Ordering/FoodOrdering.PL/Views/Order/AddOrder.cshtml]
+[F:/Important/github/Food Ordering/FoodOrdering.PL/Views/Order/AddOrder.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQWRkT3JkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/NoteBook/OneDrive/Desktop/Food Ordering/FoodOrdering.PL/Views/Order/ShowOrders.cshtml]
+[F:/Important/github/Food Ordering/FoodOrdering.PL/Views/Order/ShowOrders.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcU2hvd09yZGVycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/NoteBook/OneDrive/Desktop/Food Ordering/FoodOrdering.PL/Views/Profile/Index.cshtml]
+[F:/Important/github/Food Ordering/FoodOrdering.PL/Views/Profile/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/NoteBook/OneDrive/Desktop/Food Ordering/FoodOrdering.PL/Views/RequestOrder/Index.cshtml]
+[F:/Important/github/Food Ordering/FoodOrdering.PL/Views/RequestOrder/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVxdWVzdE9yZGVyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/NoteBook/OneDrive/Desktop/Food Ordering/FoodOrdering.PL/Views/Shared/Error.cshtml]
+[F:/Important/github/Food Ordering/FoodOrdering.PL/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/NoteBook/OneDrive/Desktop/Food Ordering/FoodOrdering.PL/Views/Shared/_AdminLayout.cshtml]
+[F:/Important/github/Food Ordering/FoodOrdering.PL/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/NoteBook/OneDrive/Desktop/Food Ordering/FoodOrdering.PL/Views/Shared/_ValidationScriptsPartial.cshtml]
+[F:/Important/github/Food Ordering/FoodOrdering.PL/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/NoteBook/OneDrive/Desktop/Food Ordering/FoodOrdering.PL/Views/ShowMenu/Index.cshtml]
+[F:/Important/github/Food Ordering/FoodOrdering.PL/Views/ShowMenu/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvd01lbnVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/NoteBook/OneDrive/Desktop/Food Ordering/FoodOrdering.PL/Views/ShowMenu/SearchMenu.cshtml]
+[F:/Important/github/Food Ordering/FoodOrdering.PL/Views/ShowMenu/SearchMenu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvd01lbnVcU2VhcmNoTWVudS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/NoteBook/OneDrive/Desktop/Food Ordering/FoodOrdering.PL/Views/ShowMenu/SearchResult.cshtml]
+[F:/Important/github/Food Ordering/FoodOrdering.PL/Views/ShowMenu/SearchResult.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvd01lbnVcU2VhcmNoUmVzdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/NoteBook/OneDrive/Desktop/Food Ordering/FoodOrdering.PL/Views/ShowMenu/ShowCategoryMenu.cshtml]
+[F:/Important/github/Food Ordering/FoodOrdering.PL/Views/ShowMenu/ShowCategoryMenu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvd01lbnVcU2hvd0NhdGVnb3J5TWVudS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/NoteBook/OneDrive/Desktop/Food Ordering/FoodOrdering.PL/Views/ShowMenu/ShowDetailes.cshtml]
+[F:/Important/github/Food Ordering/FoodOrdering.PL/Views/ShowMenu/ShowDetailes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvd01lbnVcU2hvd0RldGFpbGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/NoteBook/OneDrive/Desktop/Food Ordering/FoodOrdering.PL/Views/_ViewImports.cshtml]
+[F:/Important/github/Food Ordering/FoodOrdering.PL/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/NoteBook/OneDrive/Desktop/Food Ordering/FoodOrdering.PL/Views/_ViewStart.cshtml]
+[F:/Important/github/Food Ordering/FoodOrdering.PL/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/NoteBook/OneDrive/Desktop/Food Ordering/FoodOrdering.PL/Views/Shared/_Layout.cshtml]
+[F:/Important/github/Food Ordering/FoodOrdering.PL/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-xfdi9zflkb

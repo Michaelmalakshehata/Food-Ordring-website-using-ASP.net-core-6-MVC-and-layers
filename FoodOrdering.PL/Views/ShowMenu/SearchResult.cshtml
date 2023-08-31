@@ -2,6 +2,13 @@
 @{
     ViewData["Title"] = "Search";
     Layout = "_Layout";
+    Pager pager=new Pager();
+    int pageNo=0;
+    if(ViewBag.page is not null)
+    {
+        pager = ViewBag.page;
+        pageNo = pager.CurrentPage;
+    }
 }
 <div class="heading">
    <h3>our menu</h3>
@@ -30,7 +37,39 @@
       </form>
      }
    </div>
+    <br />
+   <nav arai-label="...">
+            @if(pager.TotalPages>0)
+            {
+                <ul class="pagination justify-content-center pagination-lg">
+                    @if(pager.CurrentPage>1)
+                    {
+                        <li class="page-item">
+                            <a class="page-link"asp-action="SearchResult" asp-controller="ShowMenu" asp-route-pg="1">Frist</a>
+                        </li>  
+                        <li class="page-item">
+                            <a class="page-link"asp-action="SearchResult" asp-controller="ShowMenu" asp-route-pg="@(pager.CurrentPage-1)">Previous</a>
+                        </li>
+                    }
+                    @for(var pge =pager.StartPage;pge <= pager.EndPage;pge++)
+                    {
+                        <li class="page-item" @(pge==pager.CurrentPage? "active" :"")>
+                            <a class="page-link"asp-action="SearchResult" asp-controller="ShowMenu" asp-route-pg="@pge">@pge</a>
+                        </li>
+                    }
+                    @if(pager.CurrentPage<pager.TotalPages)
+                    {
+                       <li class="page-item">
+                            <a class="page-link"asp-action="SearchResult" asp-controller="ShowMenu" asp-route-pg="@(pager.CurrentPage+1)">Next</a>
+                        </li> 
+                        <li class="page-item">
+                            <a class="page-link"asp-action="SearchResult" asp-controller="ShowMenu" asp-route-pg="@(pager.TotalPages)">Last</a>
+                        </li> 
+                    }
 
+                </ul>
+            }
+        </nav>
  </section>
 }
 @if(ViewBag.listmenu==null)

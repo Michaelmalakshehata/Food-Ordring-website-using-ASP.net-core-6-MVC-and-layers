@@ -2731,11 +2731,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOredering.Domain\\FoodOrdering.Domain.csproj",
+      "projectUniqueName": "F:\\Important\\github\\Food Ordering\\FoodOredering.Domain\\FoodOrdering.Domain.csproj",
       "projectName": "FoodOrdering.Domain",
-      "projectPath": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOredering.Domain\\FoodOrdering.Domain.csproj",
+      "projectPath": "F:\\Important\\github\\Food Ordering\\FoodOredering.Domain\\FoodOrdering.Domain.csproj",
       "packagesPath": "C:\\Users\\NoteBook\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOredering.Domain\\obj\\",
+      "outputPath": "F:\\Important\\github\\Food Ordering\\FoodOredering.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",

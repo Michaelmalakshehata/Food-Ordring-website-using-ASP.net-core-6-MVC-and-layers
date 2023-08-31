@@ -219,5 +219,18 @@ namespace FoodOrdering.Persistence.Repositories
                 throw;
             }
         }
+
+
+
+        public async Task<int> GetCartCount(string name)
+        {
+            if (!string.IsNullOrEmpty(name))
+            {
+                var id = await context.Users.Where(o => o.UserName == name).Select(o => o.Id).FirstOrDefaultAsync();
+                int numberCart = await context.Carts.Where(o => o.UserId == id).CountAsync();
+                return numberCart;
+            }
+            return 0;
+        }
     }
 }

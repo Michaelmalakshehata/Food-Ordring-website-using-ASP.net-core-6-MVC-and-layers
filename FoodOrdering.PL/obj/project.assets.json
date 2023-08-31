@@ -2804,11 +2804,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\FoodOrdering.PL.csproj",
+      "projectUniqueName": "F:\\Important\\github\\Food Ordering\\FoodOrdering.PL\\FoodOrdering.PL.csproj",
       "projectName": "FoodOrdering.PL",
-      "projectPath": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\FoodOrdering.PL.csproj",
+      "projectPath": "F:\\Important\\github\\Food Ordering\\FoodOrdering.PL\\FoodOrdering.PL.csproj",
       "packagesPath": "C:\\Users\\NoteBook\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.PL\\obj\\",
+      "outputPath": "F:\\Important\\github\\Food Ordering\\FoodOrdering.PL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
@@ -2831,11 +2831,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.Application\\FoodOrdering.Application.csproj": {
-              "projectPath": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.Application\\FoodOrdering.Application.csproj"
+            "F:\\Important\\github\\Food Ordering\\FoodOrdering.Application\\FoodOrdering.Application.csproj": {
+              "projectPath": "F:\\Important\\github\\Food Ordering\\FoodOrdering.Application\\FoodOrdering.Application.csproj"
             },
-            "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.Persistence\\FoodOrdering.Persistence.csproj": {
-              "projectPath": "C:\\Users\\NoteBook\\OneDrive\\Desktop\\Food Ordering\\FoodOrdering.Persistence\\FoodOrdering.Persistence.csproj"
+            "F:\\Important\\github\\Food Ordering\\FoodOrdering.Persistence\\FoodOrdering.Persistence.csproj": {
+              "projectPath": "F:\\Important\\github\\Food Ordering\\FoodOrdering.Persistence\\FoodOrdering.Persistence.csproj"
             }
           }
         }

@@ -25,7 +25,7 @@ namespace FoodOrdering.Persistence.Repositories
         {
             try
             {
-                List<Menus> list = await context.Menus.Where(e => e.IsDeleted == false).Include(e => e.Categories).Take(9).ToListAsync();
+                List<Menus> list = await context.Menus.Where(e => e.IsDeleted == false).Include(e => e.Categories).ToListAsync();
                 if (list is null)
                 {
                     return new List<CartViewModel>();

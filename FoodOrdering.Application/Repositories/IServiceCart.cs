@@ -16,5 +16,8 @@ namespace FoodOrdering.Application.Repositories
         Task<string?> UpdateCartItem(CartUpdateViewModel cartUpdateViewModel);
         Task<string?> DeleteCartItem(int id);
         Task<string?> DeleteAllCartItems(string name);
+
+        Task<int> GetCartCount(string name);
+        
     }
 }

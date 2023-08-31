@@ -3,6 +3,7 @@ using FoodOrdering.Application.Features.CategoryFeatures.CategoryUpdate;
 using FoodOrdering.Application.Repositories;
 using FoodOrdering.Persistence.Context;
 using FoodOredering.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -46,7 +47,8 @@ namespace FoodOrdering.Persistence.Repositories
         {
             try
             {
-                if (id > 0)
+                var findProductsOfCategory = await context.Menus.Where(o => o.IsDeleted == false && o.CategoryId == id).AnyAsync();
+                if (id > 0 && findProductsOfCategory ==false)
                 {
                     int result = await genericRepository.delete(id);
                     return result;

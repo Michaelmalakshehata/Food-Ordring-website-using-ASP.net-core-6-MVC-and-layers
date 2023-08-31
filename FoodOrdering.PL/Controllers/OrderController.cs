@@ -1,6 +1,8 @@
 ﻿using FoodOrdering.Application.Common;
+using FoodOrdering.Application.Common.Pagination;
 using FoodOrdering.Application.Features.OrderFeatures.OrderCreate;
 using FoodOrdering.Application.Repositories;
+using FoodOredering.Domain.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -42,12 +44,14 @@ namespace FoodOrdering.PL.Controllers
             return View(orderViewModel);
         }
         [HttpGet]
-        public async Task<IActionResult> ShowOrders()
+        public async Task<IActionResult> ShowOrders(int pg=1)
         {
             string name = User.Identity.Name;
             ViewBag.list = await serviceOrder.Order(name);
             var listorders = await serviceFinishedOrder.GetAllFinishedOrderByName(name);
-            return View(listorders);
+            var data = Pagination<FinishedOrders>.GetPaginationData(pg, listorders);
+            this.ViewBag.Pager = data.Item2;
+            return View(data.Item1);
         }
     }
 }

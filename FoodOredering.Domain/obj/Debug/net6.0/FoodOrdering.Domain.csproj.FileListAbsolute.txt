@@ -26,3 +26,17 @@ C:\Users\NoteBook\OneDrive\Desktop\Food Ordering\FoodOredering.Domain\obj\Debug\
 C:\Users\NoteBook\OneDrive\Desktop\Food Ordering\FoodOredering.Domain\obj\Debug\net6.0\FoodOrdering.Domain.pdb
 C:\Users\NoteBook\OneDrive\Desktop\Food Ordering\FoodOredering.Domain\obj\Debug\net6.0\FoodOrdering.Domain.genruntimeconfig.cache
 C:\Users\NoteBook\OneDrive\Desktop\Food Ordering\FoodOredering.Domain\obj\Debug\net6.0\ref\FoodOrdering.Domain.dll
+F:\Important\github\Food Ordering\FoodOredering.Domain\bin\Debug\net6.0\FoodOrdering.Domain.deps.json
+F:\Important\github\Food Ordering\FoodOredering.Domain\bin\Debug\net6.0\FoodOrdering.Domain.runtimeconfig.json
+F:\Important\github\Food Ordering\FoodOredering.Domain\bin\Debug\net6.0\FoodOrdering.Domain.dll
+F:\Important\github\Food Ordering\FoodOredering.Domain\bin\Debug\net6.0\FoodOrdering.Domain.pdb
+F:\Important\github\Food Ordering\FoodOredering.Domain\obj\Debug\net6.0\FoodOrdering.Domain.csproj.AssemblyReference.cache
+F:\Important\github\Food Ordering\FoodOredering.Domain\obj\Debug\net6.0\FoodOrdering.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\Important\github\Food Ordering\FoodOredering.Domain\obj\Debug\net6.0\FoodOrdering.Domain.AssemblyInfoInputs.cache
+F:\Important\github\Food Ordering\FoodOredering.Domain\obj\Debug\net6.0\FoodOrdering.Domain.AssemblyInfo.cs
+F:\Important\github\Food Ordering\FoodOredering.Domain\obj\Debug\net6.0\FoodOrdering.Domain.csproj.CoreCompileInputs.cache
+F:\Important\github\Food Ordering\FoodOredering.Domain\obj\Debug\net6.0\FoodOrdering.Domain.dll
+F:\Important\github\Food Ordering\FoodOredering.Domain\obj\Debug\net6.0\refint\FoodOrdering.Domain.dll
+F:\Important\github\Food Ordering\FoodOredering.Domain\obj\Debug\net6.0\FoodOrdering.Domain.pdb
+F:\Important\github\Food Ordering\FoodOredering.Domain\obj\Debug\net6.0\FoodOrdering.Domain.genruntimeconfig.cache
+F:\Important\github\Food Ordering\FoodOredering.Domain\obj\Debug\net6.0\ref\FoodOrdering.Domain.dll

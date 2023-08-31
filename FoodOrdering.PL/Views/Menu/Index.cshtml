@@ -2,20 +2,13 @@
 @{
     ViewData["Title"] = "Menus";
     Layout = "_AdminLayout";
-}
-@section stylecss{
-    <style>
-        #content
-        {
-           flex-grow: 1;
-           height: 30rem;
-           width:80%;
-           margin:0 auto;
-           overflow: auto; 
-           font-size:16px;
-        }
-      
-    </style>
+    Pager pager=new Pager();
+    int pageNo=0;
+    if(ViewBag.Pager is not null)
+    {
+        pager = ViewBag.Pager;
+        pageNo = pager.CurrentPage;
+    }
 }
 <div style="margin-top:30px">
     <div id="content" >
@@ -28,7 +21,6 @@
                      <th>Code</th>
                      <th>Name</th>
                      <th>Price</th>
-                     <th>Image Name</th>
                      <th>Image</th>
                      <th>Category Code</th>
                      <th>Date and Time</th>
@@ -43,7 +35,6 @@
                         <td>@itm.Id</td>
                         <td>@itm.Name</td>
                         <td>@itm.Price</td>
-                        <td>@itm.imgpath</td>
                          <td>
                            <img src="~/uploaded_img/@itm.imgpath" style="width:64px" class="img-thumbnail">
                           </td>
@@ -51,13 +42,46 @@
                         <td>@itm.Date</td>
                         <td>@itm.IsDeleted</td>
                         <td>
-                            <a asp-action="UpdateMenu" id="btn" asp-controller="Menu" asp-route-id="@itm.Id"class="btn btn-secondary">Edit</a>
-                            <a asp-action="DeleteMenu" id="btn" asp-controller="Menu"asp-route-id="@itm.Id"onclick="return confirm('are you sure to delete this item @itm.Name')" class="btn btn-danger">Delete</a>
+                            <a asp-action="UpdateMenu" id="btn" asp-controller="Menu" asp-route-id="@itm.Id"class="btn btn-secondary m-1">Edit</a>
+                            <a asp-action="DeleteMenu" id="btn" asp-controller="Menu"asp-route-id="@itm.Id"onclick="return confirm('are you sure to delete this item @itm.Name')" class="btn btn-danger m-1">Delete</a>
                         </td>
                     </tr>
         
                 }
             </tbody>
         </table>
+      <br />
+   <nav arai-label="...">
+            @if(pager.TotalPages>0)
+            {
+                <ul class="pagination justify-content-center pagination-lg">
+                    @if(pager.CurrentPage>1)
+                    {
+                        <li class="page-item">
+                            <a class="page-link"asp-action="Index" asp-controller="Menu" asp-route-pg="1">Frist</a>
+                        </li>  
+                        <li class="page-item">
+                            <a class="page-link"asp-action="Index" asp-controller="Menu" asp-route-pg="@(pager.CurrentPage-1)">Previous</a>
+                        </li>
+                    }
+                    @for(var pge =pager.StartPage;pge <= pager.EndPage;pge++)
+                    {
+                        <li class="page-item" @(pge==pager.CurrentPage? "active" :"")>
+                            <a class="page-link"asp-action="Index" asp-controller="Menu" asp-route-pg="@pge">@pge</a>
+                        </li>
+                    }
+                    @if(pager.CurrentPage<pager.TotalPages)
+                    {
+                       <li class="page-item">
+                            <a class="page-link"asp-action="Index" asp-controller="Menu" asp-route-pg="@(pager.CurrentPage+1)">Next</a>
+                        </li> 
+                        <li class="page-item">
+                            <a class="page-link"asp-action="Index" asp-controller="Menu" asp-route-pg="@(pager.TotalPages)">Last</a>
+                        </li> 
+                    }
+
+                </ul>
+            }
+        </nav>
     </div>
 </div>

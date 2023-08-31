@@ -36,7 +36,7 @@ namespace FoodOrdering.Persistence.Repositories
                 if (menuViewModel.File is not null)
                 {
                     string uploads = Path.Combine(_hosting.WebRootPath, ("uploaded_img"));
-                    filename = menuViewModel.File.FileName;
+                    filename = Guid.NewGuid().ToString() + "_" + menuViewModel.File.FileName;
                     string fullpath = Path.Combine(uploads, filename);
                     menuViewModel.File.CopyTo(new FileStream(fullpath, FileMode.Create));
                 }
@@ -186,7 +186,7 @@ namespace FoodOrdering.Persistence.Repositories
                     if (menuUpdateViewModel.File is not null)
                     {
                         string uploads = Path.Combine(_hosting.WebRootPath, ("uploaded_img"));
-                        filename = menuUpdateViewModel.File.FileName;
+                        filename = Guid.NewGuid().ToString() + "_" + menuUpdateViewModel.File.FileName;
                         string fullpath = Path.Combine(uploads, filename);
                         if (oldobj?.imgpath is not null)
                         {
